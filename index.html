@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+        integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Oxyshime Healthcare</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="logo.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bookappointment">Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contectus">Contact us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our serivces
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#Medicalconsultancy">Medical consultancy</a></li>
+                            <li><a class="dropdown-item" href="#ENTspecialist">ENT specialist</a></li>
+                            <li><a class="dropdown-item" href="#BPTspecialist">BPT specialist</a></li>
+                            <li><a class="dropdown-item" href="#Optometrist">Optometrist</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Join us as Doctor</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- home section -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img1.png" class="d-block w-80 img-fluid" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-dark">First slide label</h5>
+                                <p class="text-dark">Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img2.png" class="d-block w-80 img-fluid" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-dark">Second slide label</h5>
+                                <p class="text-dark">Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img3.png" class="d-block w-80 img-fluid" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="text-dark">Third slide label</h5>
+                                <p class="text-dark">Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+            <div class="col-md-6 text-center mt-3">
+                <img src="homelogo.png" alt="" class="img-fluid">
+                <h1>Oxyshime Healthcare</h1>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="container mb-4" id="home">
+        <div class="row mt-5 ">
+            <div class="col-md-6 col-sm-12">
+                <img src="doctor_pointing.png" alt="">
+
+            </div>
+            <div class="col-md-6 col-sm-12 mt-4 p-3 ">
+                <h1>Hi! How can I help you?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptate. Veniam ea labore
+                    assumenda enim modi est sapiente, sed maiores eaque nostrum rerum fugit tempore harum. A ab sequi,
+                    dignissimos quidem perferendis nemo velit.</p>
+                <a href="#bookappointment"><button class="btn btn-success">Book Appointment</button></a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- serivces -->
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mt-4 mb-4 d-flex justify-content-center" id="Medicalconsultancy">
+                <div class="card" style="width: 18rem;">
+                    <img src="medical_consultancy.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Medical consultancy</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mt-4 mb-4 d-flex justify-content-center" id="ENTspecialist">
+                <div class="card" style="width: 18rem;">
+                    <img src="ENT_specialist.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ENT Specialist</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mt-4 mb-4 d-flex justify-content-center" id="BPTspecialist">
+                <div class="card" style="width: 18rem;">
+                    <img src="bpt_specialist.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BPT Specialist</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mt-4 mb-4 d-flex justify-content-center" id="Optometrist">
+                <div class="card" style="width: 18rem;">
+                    <img src="optometrist.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Optometrist</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- book Appointment -->
+    <div class="container mb-5" id="bookappointment">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 col-sm-12">
+                <h1 class="text-center border-bottom" style="color: rgb(113, 113, 110);">Book Your Appointment</h1>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Enter Name" autocomplete="off">
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <fieldset>
+                                <p><input type="radio" name="gender" id="male">&nbsp;Male&nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="gender" id="female">&nbsp;Female
+                                </p>
+                            </fieldset>
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control" placeholder="Enter Age" autocomplete="off">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Write Something" autocomplete="off">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- doctor -->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 d-flex justify-content-center mb-3">
+                <div class="card hoverdoctor" style="width: 18rem;">
+                    <img src="doctor1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Dr. D Sankar</h4>
+                        <p class="card-text">MBBS MS (ENT) KGMU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 d-flex justify-content-center mb-3">
+                <div class="card hoverdoctor" style="width: 18rem;">
+                    <img src="doctor2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Dr. Sanjeev Sharma</h4>
+                        <p class="card-text">Bachelor in Physiotherapy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 d-flex justify-content-center mb-3">
+                <div class="card hoverdoctor" style="width: 18rem;">
+                    <img src="doctor3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Dr. Neeharika Verma</h4>
+                        <p class="card-text">Optometrist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact us -->
+    <div class="container mb-4" id="contectus">
+        <h1 class="text-center border-bottom">Contact Us</h1>
+        <div class="d-flex justify-content-center">
+            <a href=""><img src="email.png" alt=""></a>
+            <a href=""><img src="whatsapp.png" alt=""></a>
+            <a href=""><img src="facebook.png" alt=""></a>
+            <a href=""><img src="insta.png" alt=""></a>
+            <a href=""><img src="twitter.png" alt=""></a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
